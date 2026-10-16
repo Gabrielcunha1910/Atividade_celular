@@ -1,0 +1,144 @@
+
+.tela-novidades .novidades-titulo,
+.tela-novidades .novidade {
+    left: 60%;
+}
+
+.tela-novidades .voltar {
+    top: 72%;
+    left: 60%;
+    width: min(45vw, 155px);
+}
+
+.tela-novidades .voltar img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.tela-novidades {
+    background-image: url("../img/iPhone 17 - 1 (1).png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.novidade {
+    position: absolute;
+    transform: translateX(-60%);
+    width: 225px;
+}
+
+
+
+.novidade-processador { top: 25%; }
+.novidade-placa-video { top: 40%; }
+.novidade-monte-pc { top: 55%; }
+
+.tela {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    height: 100svh;
+    overflow: hidden;
+    background: url("../img/iPhone 17 - 1 (1).png") 
+}
+
+.menu {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    width: min(56vw, 205px);
+    transform: translateX(-50%);
+}
+
+.itens {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    gap: 15px 4px;
+    margin: 0;
+    padding: 0;
+}
+
+.centro { grid-column: 1 / -1; }
+
+.item {
+    display: flex;
+    width: 100%;
+    height: clamp(52px, 10.8vh, 64px);
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.item img { width: min(100%, 80px); }
+
+
+
+.voltar {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    display: block;
+    width: 150px;
+    transform: translateX(-50%);
+}
+
+
+.part-config {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    display: block;
+    width: 150px;
+    height: auto;
+    transform: translateX(-50%);
+}
+.logo {
+    position: absolute;
+    top: 10%;
+    left: 58%;
+    width: 50%;
+    transform: translateX(-50%);
+}
+.part-detalhes {
+    position: absolute;
+    top: 25%;
+    left: 52%;
+    display: block;
+    width: 175px;
+    height: auto;
+    transform: translateX(-50%);
+}
+.cadastro {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    display: block;
+    width: 250px;
+    height: auto;
+    transform: translateX(-50%);
+}
+.part-sup {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    display: block;
+    width: 200px;
+    height: auto;
+    transform: translateX(-50%);
+}
+
+body {
+    margin: 0;
+}
+.login-novo {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    display: block;
+    width: 250px;
+    height: auto;
+    transform: translateX(-50%);
+}
